@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bIKo1jAUoKcF2CM2/FUB8AYdthDbtZRLfP5qvpugjwtNyXppEYTUBTSCxHxhKCKy2eaFjUT8i2r/1izeNs6t4w==",
+  "dgSpecHash": "I+kSYufcoYxX7D1j3FA+LJ7e9v9vgwPIsDI31yCC4C7uzJtmWe0wPH3yBJQT/Cyvu7u4YC+BfnG7dIXRbSlZ0g==",
   "success": true,
-  "projectFilePath": "C:\\code\\ITDEV162\\kathryn-klatt\\API\\API.csproj",
+  "projectFilePath": "C:\\code\\ITDEV162\\kathryn-klatt\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zenmy\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.8\\microsoft.data.sqlite.core.6.0.8.nupkg.sha512",
     "C:\\Users\\zenmy\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",
