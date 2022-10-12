@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\code\\ITDEV162\\kathryn-klatt\\api\\API.csproj": {}
+    "C:\\code\\ITDEV162\\kathryn-klatt\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\code\\ITDEV162\\kathryn-klatt\\api\\API.csproj": {
+    "C:\\code\\ITDEV162\\kathryn-klatt\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\code\\ITDEV162\\kathryn-klatt\\api\\API.csproj",
+        "projectUniqueName": "C:\\code\\ITDEV162\\kathryn-klatt\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\code\\ITDEV162\\kathryn-klatt\\api\\API.csproj",
+        "projectPath": "C:\\code\\ITDEV162\\kathryn-klatt\\API\\API.csproj",
         "packagesPath": "C:\\Users\\zenmy\\.nuget\\packages\\",
-        "outputPath": "C:\\code\\ITDEV162\\kathryn-klatt\\api\\obj\\",
+        "outputPath": "C:\\code\\ITDEV162\\kathryn-klatt\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zenmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
