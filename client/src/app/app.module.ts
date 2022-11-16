@@ -21,7 +21,8 @@ import { CreatePostComponent } from './create-post/create-post.component';
     AppComponent,
     HomeComponent,
     ViewPostComponent,
-    CreatePostComponent
+    CreatePostComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -33,8 +34,8 @@ import { CreatePostComponent } from './create-post/create-post.component';
     MatIconModule,
     MatButtonModule,
     FormsModule,
-    MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
