@@ -1,3 +1,5 @@
+import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,17 +10,27 @@ import { Component, OnInit } from '@angular/core';
 export class CreatePostComponent implements OnInit {
 model: any = {}
 
-  constructor() { }
+  constructor(
+    private http: HttpClient,
+    private route: Router
+  ) { }
 
   ngOnInit(): void {
   }
 
   createPost(){
-    console.log(this.model);
+    this.model.date = new Date();
+    this.http.post('http://localhost:5010/api/posts', this.model).subscribe(
+      response => {this.home()},
+      error=> {console.log(error)}
+    );
   }
 
   cancel(){
-    console.log("cancel create post");
+    this.home();
   }
 
+  home(){
+    this.route.navigate(["/"]);
+  }
 }
