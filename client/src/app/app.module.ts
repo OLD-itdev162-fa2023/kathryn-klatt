@@ -21,7 +21,7 @@ import { CreatePostComponent } from './create-post/create-post.component';
     AppComponent,
     HomeComponent,
     ViewPostComponent,
-    CreatePostComponent,
+    CreatePostComponent
     
   ],
   imports: [
